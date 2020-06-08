@@ -1,0 +1,133 @@
+.yd-warp-home {
+    //首页添加模块
+    .home-module {
+        h2 {
+            margin: 20px 0;
+        }
+
+        .el-col {
+            position: relative;
+            text-align: center;
+            height: 110px;
+            border: 1px solid rgba(237, 240, 246, 1);
+            padding-top: 20px;
+
+            .isicon {
+                font-size: 34px;
+            }
+
+            .del {
+                position: absolute;
+                right: 5px;
+                top: 5px;
+                color: #ccc;
+                cursor: pointer;
+            }
+
+            .add {
+                position: absolute;
+                right: 5px;
+                top: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    a {
+        color: rgb(51, 51, 51);
+    }
+
+    //教务通知公告跟留言板高度
+    .height-360 {
+        height: 360px;
+    }
+
+    //教务日历跟基本信息 跟通知公告的高度
+    .height-346 {
+        height: 346px;
+    }
+
+    .height-297 {
+        height: 297px;
+    }
+
+    .text-999 {
+        color: #999;
+    }
+
+    .loading-tip {
+        text-align: center;
+        padding: 20px 0
+    }
+
+    //首页整个板块
+    .home-block-wrap {
+        margin-top: 20px;
+        //margin-right: -20px;
+        //小模块
+        .home-block {
+            margin-bottom: 20px;
+            background-color: #fff;
+            border-radius: 4px;
+            //模块上
+            .home-header {
+                cursor: move;
+                padding: 6px 20px 6px 34px;
+                border-bottom: 1px solid rgba(237, 240, 246, 1);
+                position: relative;
+
+                &::before {
+                    content: "";
+                    width: 3px;
+                    height: 19px;
+                    background-color: #000;
+                    position: absolute;
+                    left: 23px;
+                    top: 14px;
+                }
+
+                h3 {
+                    color: #333;
+                    font-weight: bold;
+                    line-height: 36px;
+                    font-size: 20px;
+                }
+
+                i {
+                    font-size: 20px;
+                    line-height: 36px;
+                }
+
+                span {
+                    font-size: 12px;
+                    color: #ccc;
+                    line-height: 36px;
+                    vertical-align: sub;
+                }
+
+                .el-dropdown-link {
+                    color: #333;
+                }
+
+                .el-icon-arrow-down {
+                    font-size: 12px;
+                }
+            }
+
+            //模块下
+            .home-content {
+                padding: 0 20px;
+                overflow-y: auto;
+            }
+        }
+    }
+
+    .home-footer-copyright {
+        margin-top: 0px;
+        text-align: center;
+
+        .version-number {
+            color: #F45064;
+        }
+    }
+}

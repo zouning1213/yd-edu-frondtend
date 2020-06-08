@@ -1,0 +1,60 @@
+<template>
+    <!--学生练习信心-->
+    <van-cell-group>
+        <van-field
+                v-model="form.lxdh"
+                type="text"
+                label="手机号"
+                :disabled="is_edit"
+                placeholder="请输入手机号"/>
+        <van-field
+                v-model="form.dzxx"
+                type="text"
+                label="电子邮箱"
+                :disabled="is_edit"
+                placeholder="请输入电子邮箱"/>
+        <van-field
+                v-model="form.qq"
+                type="text"
+                label="QQ号"
+                :disabled="is_edit"
+                placeholder="请输入QQ号"/>
+        <van-field
+                v-model="form.wxh"
+                type="text"
+                label="微信号"
+                :disabled="is_edit"
+                placeholder="请输入微信号"/>
+        <van-field
+                v-model="form.txdz"
+                type="text"
+                label="通讯地址"
+                :disabled="is_edit"
+                placeholder="请输入通讯地址"/>
+        <van-field
+                v-model="form.zydz"
+                type="text"
+                label="主页地址"
+                :disabled="is_edit"
+                placeholder="请输入主页地址"/>
+    </van-cell-group>
+</template>
+
+<script>
+    export default {
+        name:"info-contact",
+        props:{
+            form:{
+                default:{},
+                required:true
+            },
+            is_edit:{
+                default:false,
+            }
+        },
+    }
+</script>
+
+<style scoped>
+
+</style>

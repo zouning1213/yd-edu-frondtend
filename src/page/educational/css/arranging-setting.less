@@ -1,0 +1,464 @@
+// 单个排课约束 全局排课约束 公共 样式
+.arranging-setting-single, .arranging-setting-multiple {
+    //公共table
+    .arranging-common-table {
+        .table-title {
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .el-checkbox-group {
+            font-size: inherit;
+        }
+        table {
+            width: 100%;
+            thead {
+                th {
+                    text-align: center;
+                    padding: 9px 0px;
+                    color: #fff;
+                    p {
+                        font-size: 14px;
+                        color: #333;
+                        color: #fff;
+                    }
+                }
+            }
+            tbody {
+                td {
+                    border: 1px solid #999999;
+                    text-align: center;
+                    font-size: 14px;
+                    color: #333;
+                    height: 48px;
+                }
+            }
+        }
+        &.adjust-classes-table {
+            tbody {
+                td {
+                    height: 56px;
+                    position: relative;
+                    font-size: 14px;
+                    color: #333;
+                    p {
+                        padding: 1px 0px;
+                        text-align: center;
+                        font-size: 14px;
+                        color: #333;
+                        line-height: 18px;
+                    }
+                    .checked {
+                        background-color: #EB5870;
+                        color: #fff;
+                        cursor: not-allowed;
+                    }
+                    .disabled {
+                        background-color: #F3F5F7;
+                        color: #F3F5F7;
+                        cursor: not-allowed;
+                    }
+                    .active {
+                        cursor: pointer;
+                    }
+                    .opacity {
+                        opacity: 0.9;
+                    }
+                    .el-checkbox {
+                        display: block;
+                        line-height: 18px;
+                        text-align: center;
+                        .el-checkbox__label {
+                            font-size: 12px;
+                            padding-left: 0;
+                        }
+                        .el-checkbox__input {
+                            position: absolute;
+                            right: 0;
+                            top: 0;
+                            display: none;
+                        }
+                        &.is-checked {
+                            /*  p {
+                                  color: #fff;
+                              }*/
+                        }
+                    }
+                    .check-bg {
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        z-index: 1;
+                    }
+                    .el-checkbox {
+                        display: block;
+                        height: 100%;
+                        opacity: 0;
+                    }
+                }
+                .bg-ABFFCF {
+                    background-color: #ABFFCF;
+                }
+                .bg-C7F2FF {
+                    background-color: #C7F2FF;
+                }
+                .bg-EAEAEA {
+                    background-color: #EAEAEA;
+                }
+                .cell {
+                    position: relative;
+                }
+            }
+            .large-table {
+                thead {
+                    th {
+                        padding: 6px 0px;
+                    }
+                }
+                tbody {
+                    td {
+                        height: 61px;
+                    }
+                }
+            }
+            .small-table{
+                thead {
+                    th {
+                        padding: 4px 0px;
+                    }
+                }
+                tbody {
+                    td {
+                        height: inherit;
+                        padding: 4px 0;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+    //公共按钮切换
+    .arranging-common-tab {
+        padding-bottom: 16px;
+        border-bottom: 1px solid #F3F5F7;
+        .el-button {
+            margin-right: 10px;
+        }
+    }
+    //公共选项
+    .arranging-common-select {
+        padding: 15px 0 0px;
+    }
+    //公共提示
+    .arranging-common-tip {
+        li {
+            font-size: 14px;
+            color: #666;
+            display: inline-block;
+            margin-right: 20px;
+            span {
+                display: inline-block;
+                width: 12px;
+                height: 12px;
+                margin-right: 10px;
+            }
+            &:nth-child(1) {
+                span {
+                    background-color: #ABFFCF;
+                }
+            }
+            &:nth-child(2) {
+                span {
+                     background-color: #C7F2FF;
+                }
+            }
+            &:nth-child(3) {
+                margin-right: 0;
+                span {
+                    background-color: #EAEAEA;
+                }
+            }
+        }
+    }
+    //公共设置table
+    .setting-common-table {
+        padding-top: 10px;
+        .setting-title {
+            h3 {
+                font-size: 14px;
+                color: #333;
+                line-height: 32px;
+            }
+            .el-input-group__append {
+                color: #fff;
+            }
+        }
+        .el-table {
+            margin-top: 15px;
+            .el-table__header, .el-table__body {
+                th, td {
+                    padding: 8px 0;
+                }
+            }
+            .el-table__header {
+                th {
+                    font-weight: 550;
+                }
+            }
+            .el-table__body {
+                .el-table__row {
+                    td:first-child {
+                        padding-left: 18px;
+                    }
+                    /*  &.expanded {
+                          td:first-child {
+                              padding-left: 30px;
+                          }
+                      }*/
+                    .el-icon-arrow-right {
+                        font-size: 16px;
+                        color: #999999;
+                    }
+                    .el-icon-arrow-right:before {
+                        content: "\e791";
+                    }
+                }
+            }
+        }
+    }
+}
+
+//单个排课约束样式
+.arranging-setting-single {
+    //导航
+    .navigation-title {
+        height: 60px;
+        padding-top: 22px;
+        .el-breadcrumb__inner {
+            font-size: 16px;
+        }
+        .el-breadcrumb__inner.is-link {
+            font-weight: normal;
+        }
+    }
+    .yd-common-steps {
+        .step-list {
+            width: 16%;
+        }
+    }
+    //开始排课
+    .setting-arranging-start {
+        width: 296px;
+        margin: 0px auto;
+        text-align: center;
+        padding-top: 14%;
+        .banner {
+            height: 214px;
+            margin-bottom: 20px;
+            img {
+                width: 100%;
+            }
+        }
+        p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+    }
+
+    //设置课时
+    .setting-course-table {
+        table {
+            margin-left: -1px;
+            margin-right: -1px;
+            margin-top: -1px;
+            margin-bottom: -1px;
+            tbody {
+                tr {
+                    td {
+                        padding: 9px 0;
+                        font-size: 14px;
+                        .el-button--default {
+                            width: 80%;
+                            padding: 9px 4px;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            white-space: nowrap;
+                        }
+                        .el-button--small {
+                            font-size: 14px;
+                        }
+                        &:first-child {
+                            border-left: none;
+                        }
+                        &:last-child {
+                            border-right: none;
+                        }
+                    }
+                    &:first-child {
+                        td {
+                            border-top: none;
+                        }
+                    }
+                    &:last-child {
+                        td {
+                            border-bottom: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //任课信息
+    .setting-course-table1 {
+        .el-table__body {
+            .cell {
+                position: relative;
+            }
+            .el-button--default {
+                width: 80%;
+                padding: 9px 4px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+            }
+            .el-button--small {
+                font-size: 14px;
+            }
+        }
+        .el-table--enable-row-hover{
+            .el-table__body{
+                tr:hover{
+                    >td{
+                        background-color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//全局排课约束样式
+.arranging-setting-multiple {
+
+}
+
+//选择弹窗
+.arranging-setting-dialog {
+    padding-bottom: 20px;
+    position: relative;
+    .choose-list {
+        .title {
+            h3 {
+                font-size: 15px;
+            }
+            span {
+                display: inline-block;
+                width: 4px;
+                height: 14px;
+                margin-right: 10px;
+                position: relative;
+                top: 2px;
+            }
+            label {
+                font-size: 12px;
+                color: #999;
+                margin-left: 10px;
+            }
+        }
+        .content {
+            padding-top: 10px;
+            margin-right: -20px;
+            li {
+                display: inline-block;
+                margin-right: 20px;
+                margin-top: 10px;
+                background-color: #F3F5F7;
+                -webkit-border-radius: 4px;
+                -moz-border-radius: 4px;
+                border-radius: 4px;
+                text-align: left;
+                position: relative;
+                .status {
+                    width: 16px;
+                    height: 16px;
+                    line-height: 16px;
+                    text-align: center;
+                    font-size: 12px;
+                    position: absolute;
+                    left: 10px;
+                    top: 12px;
+                    -webkit-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    border-radius: 4px;
+                    color: #fff;
+                }
+                p {
+                    font-size: 15px;
+                    color: #000;
+                }
+                i {
+                    font-style: normal;
+                }
+                .checked, .cancel-checked {
+                    position: absolute;
+                    right: 0;
+                    cursor: pointer;
+                    z-index: 999;
+                    i {
+                        font-size: 16px;
+                    }
+                }
+                .checked {
+                    bottom: 0;
+                }
+                .el-checkbox {
+                    width: 100%;
+                    padding: 10px 30px;
+                    .el-checkbox__input {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        display: none;
+                    }
+                    .el-checkbox__label {
+                        padding-left: 0;
+                    }
+                }
+                .cancel-checked {
+                    top: 0;
+                    i {
+                        font-size: 16px;
+                        background-color: #fff;
+                        -webkit-border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        border-radius: 50%;
+                    }
+                }
+            }
+            .active {
+                p {
+                    color: #3E7857;
+                }
+            }
+        }
+    }
+    .choose-list:first-child {
+        .is-disabled {
+            cursor: default;
+            .el-checkbox__label {
+                cursor: default;
+            }
+        }
+    }
+    .choose-list:last-child {
+        .is-disabled {
+            cursor: not-allowed;
+            p {
+                cursor: not-allowed;
+            }
+        }
+    }
+}

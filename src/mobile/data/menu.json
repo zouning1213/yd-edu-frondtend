@@ -1,0 +1,23 @@
+{
+    "student": [
+        {
+            "url": "",
+            "name": "首页",
+            "icon": "icon-home"
+        }
+    ],
+    "teacher": [
+        {
+            "url": "",
+            "name": "首页",
+            "icon": "icon-home"
+        }
+    ],
+    "educational": [
+        {
+            "url": "",
+            "name": "首页",
+            "icon": "icon-home"
+        }
+    ]
+}

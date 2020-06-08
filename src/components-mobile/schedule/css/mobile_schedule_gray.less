@@ -1,0 +1,139 @@
+.mobile-schedule-grade {
+    .schedule-table {
+        width: 100%;
+        background-color: #fff;
+        .arrow {
+            position: relative;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .table-head, .table-body {
+            tr {
+                td, th {
+                    text-align: center;
+                }
+            }
+        }
+
+        .table-head {
+            tr{
+                th {
+                    padding: 14px 0;
+                    font-size: 14px;
+                    color: #8A8A8A;
+                    font-weight: normal;
+                }
+            }
+        }
+
+        .table-body {
+            background-color: #F5F5F5;
+            tr {
+                td {
+                    font-size: 12px;
+                    color: #fff;
+                    padding: 1px;
+                    -webkit-border-radius: 8px;
+                    -moz-border-radius: 8px;
+                    border-radius: 8px;
+                    border-right: 2px solid #F5F5F5;
+                    border-bottom: 2px solid #F5F5F5;
+                    min-height: 60px;
+                    .schedule-block {
+                        padding: 13px 4px;
+                        cursor: pointer;
+                        min-height: 60px;
+                        &:last-child {
+                            border-bottom: none;
+                        }
+                    }
+
+                    //&:nth-child(3) {
+                    //    background-color: #FE9494;
+                    //}
+                    //
+                    //&:nth-child(4) {
+                    //    background-color: #78A0FF;
+                    //}
+                    //
+                    //&:nth-child(5) {
+                    //    background-color: #FF9E81;
+                    //}
+                    //
+                    //&:nth-child(6) {
+                    //    background-color: #81C1FF;
+                    //}
+                }
+
+                .other-td {
+                    color: #8A8A8A;
+                    font-size: 14px;
+                    background-color: #fff;
+                    margin: 0 auto;
+                    border-right: 2px solid #fff;
+                    border-bottom: 2px solid #fff;
+                }
+            }
+        }
+    }
+}
+
+//课程表为空的时候提示
+.mobile-schedule-tip {
+    text-align: center;
+    padding-top: 18%;
+
+    img {
+        width: 344px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        color: #CCC;
+    }
+}
+
+//日程详情
+.mobile-grade-info {
+    .van-dialog {
+        width: 70%;
+        overflow: inherit;
+        .van-dialog__content {
+            padding:30px 20px;
+            color: #333;
+            background-color: #fff;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+        }
+    }
+
+    h3 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        color: #2C2C2C;
+    }
+
+    p {
+        font-size: 14px;
+        color: #2C2C2C;
+        margin-bottom: 20px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        span {
+            margin-right: 12px;
+            color: #8A8A8A;
+        }
+    }
+
+    label {
+        margin-left: 6px;
+        color: #999;
+    }
+}

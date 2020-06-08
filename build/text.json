@@ -1,0 +1,270 @@
+[
+    {
+        "createTime": "2019-10-17 14:35:16",
+        "createUser": "",
+        "updateTime": "",
+        "updateUser": "",
+        "yxbm": "100000",
+        "yxid": 1,
+        "id": "y1",
+        "yxmc": "\u516C\u5171\u8BFE\u90E8",
+        "children": [
+            [
+                {
+                    "ksid": 1,
+                    "id": "k1",
+                    "pid": "y1",
+                    "ksh": "110110",
+                    "yxid": 1,
+                    "yxbm": "100000",
+                    "createTime": "2019-10-17 14:38:03",
+                    "updateUser": "",
+                    "createUser": "",
+                    "updateTime": "",
+                    "ksmc": "\u8BED\u6587\u7EC4",
+                    "yxmc": "\u516C\u5171\u8BFE\u90E8"
+                },
+                {
+                    "ksid": 2,
+                    "id": "k2",
+                    "pid": "y2",
+                    "ksh": "110111",
+                    "yxid": 1,
+                    "yxbm": "100000",
+                    "createTime": "2019-10-17 14:39:13",
+                    "updateUser": "",
+                    "createUser": "",
+                    "updateTime": "",
+                    "ksmc": "\u4F1A\u8BA1\u7EC4",
+                    "yxmc": "\u516C\u5171\u8BFE\u90E8"
+                },
+                {
+                    "ksid": 3,
+                    "id": "k3",
+                    "pid": "y3",
+                    "ksh": "110112",
+                    "yxid": 1,
+                    "yxbm": "100000",
+                    "createTime": "2019-10-17 14:39:27",
+                    "updateUser": "",
+                    "createUser": "",
+                    "updateTime": "",
+                    "ksmc": "\u673A\u7535\u6570\u63A7\u7EC4",
+                    "yxmc": "\u516C\u5171\u8BFE\u90E8"
+                }
+            ]
+        ]
+    },
+    {
+        "createTime": "2019-10-17 14:36:28",
+        "createUser": "",
+        "updateTime": "",
+        "updateUser": "",
+        "yxbm": "110000",
+        "yxid": 2,
+        "id": "y2",
+        "yxmc": "\u8BA1\u7B97\u673A\u79D1\u5B66\u5B66\u9662",
+        "children": [
+            {
+                "ksid": 4,
+                "id": "k4",
+                "pid": "y2",
+                "ksh": "110120",
+                "yxid": 2,
+                "yxbm": "110000",
+                "createTime": "2019-10-17 14:39:53",
+                "updateUser": "",
+                "createUser": "",
+                "updateTime": "",
+                "ksmc": "\u673A\u68B0\u52A0\u5DE5\u7EC4",
+                "yxmc": "\u8BA1\u7B97\u673A\u79D1\u5B66\u5B66\u9662"
+            },
+            {
+                "ksid": 5,
+                "id": "k5",
+                "pid": "y2",
+                "ksh": "110121",
+                "yxid": 2,
+                "yxbm": "110000",
+                "createTime": "2019-10-17 14:40:06",
+                "updateUser": "",
+                "createUser": "",
+                "updateTime": "",
+                "ksmc": "\u6570\u5B66\u7EC4",
+                "yxmc": "\u8BA1\u7B97\u673A\u79D1\u5B66\u5B66\u9662"
+            },
+            {
+                "ksid": 7,
+                "id": "k7",
+                "pid": "y2",
+                "ksh": "110122",
+                "yxid": 2,
+                "yxbm": "110000",
+                "createTime": "2019-10-17 14:40:34",
+                "updateUser": "",
+                "createUser": "",
+                "updateTime": "",
+                "ksmc": "\u82F1\u8BED\u7EC4",
+                "yxmc": "\u8BA1\u7B97\u673A\u79D1\u5B66\u5B66\u9662"
+            },
+            {
+                "ksid": 15,
+                "id": "k15",
+                "pid": "y2",
+                "ksh": "110133",
+                "yxid": 2,
+                "yxbm": "110000",
+                "createTime": "2019-10-17 14:38:03",
+                "updateUser": "",
+                "createUser": "",
+                "updateTime": "",
+                "ksmc": "\u7535\u5B50\u6280\u672F\u7EC4",
+                "yxmc": "\u8BA1\u7B97\u673A\u79D1\u5B66\u5B66\u9662"
+            },
+            {
+                "ksid": 16,
+                "id": "k16",
+                "pid": "y2",
+                "ksh": "110134",
+                "yxid": 2,
+                "yxbm": "110000",
+                "createTime": "2019-10-17 14:39:13",
+                "updateUser": "",
+                "createUser": "",
+                "updateTime": "",
+                "ksmc": "\u8BA1\u7B97\u673A\u6280\u672F\u7EC4",
+                "yxmc": "\u8BA1\u7B97\u673A\u79D1\u5B66\u5B66\u9662"
+            }
+        ]
+    },
+    {
+        "createTime": "2019-10-17 14:37:15",
+        "createUser": "",
+        "updateTime": "",
+        "updateUser": "",
+        "yxbm": "120000",
+        "yxid": 3,
+        "id": "y3",
+        "yxmc": "\u751F\u7269\u5DE5\u7A0B\u5B66\u9662",
+        "children": [
+            {
+                "ksid": 8,
+                "id": "k8",
+                "pid": "y3",
+                "ksh": "110123",
+                "yxid": 3,
+                "yxbm": "120000",
+                "createTime": "2019-10-17 14:41:33",
+                "updateUser": "",
+                "createUser": "",
+                "updateTime": "",
+                "ksmc": "\u827A\u672F\u7EC4",
+                "yxmc": "\u751F\u7269\u5DE5\u7A0B\u5B66\u9662"
+            },
+            {
+                "ksid": 10,
+                "id": "k10",
+                "pid": "y3",
+                "ksh": "110130",
+                "yxid": 3,
+                "yxbm": "120000",
+                "createTime": "2019-10-17 14:42:19",
+                "updateUser": "",
+                "createUser": "",
+                "updateTime": "",
+                "ksmc": "\u5E7C\u6559\u7EC4",
+                "yxmc": "\u751F\u7269\u5DE5\u7A0B\u5B66\u9662"
+            },
+            {
+                "ksid": 11,
+                "id": "k11",
+                "pid": "y3",
+                "ksh": "110131",
+                "yxid": 3,
+                "yxbm": "120000",
+                "createTime": "2019-10-17 14:42:37",
+                "updateUser": "",
+                "createUser": "",
+                "updateTime": "",
+                "ksmc": "\u6C7D\u4FEE\u6280\u672F\u7EC4",
+                "yxmc": "\u751F\u7269\u5DE5\u7A0B\u5B66\u9662"
+            },
+            {
+                "ksid": 12,
+                "id": "k12",
+                "pid": "y3",
+                "ksh": "110132",
+                "yxid": 3,
+                "yxbm": "120000",
+                "createTime": "2019-10-17 14:42:58",
+                "updaterName": "\u6559\u52A1\u4E3B\u4EFB",
+                "updateUser": "1136153078811123714",
+                "createUser": "",
+                "updateTime": "2019-10-17 19:00:39",
+                "ksmc": "\u751F\u7269\u5DE5\u7A0B\u7EC4",
+                "yxmc": "\u751F\u7269\u5DE5\u7A0B\u5B66\u9662"
+            }
+        ]
+    },
+    {
+        "createTime": "2019-10-17 17:15:30",
+        "createUser": "1136153078811123714",
+        "updateTime": "",
+        "updateUser": "",
+        "yxbm": "2525",
+        "yxid": 4,
+        "id": "y4",
+        "yxmc": "\u6E56\u5317\u79D1\u6280\u804C\u4E1A\u6280\u672F\u5B66\u9662",
+        "children": [
+            {
+                "ksid": 8,
+                "ksh": "110123",
+                "yxid": 3,
+                "yxbm": "120000",
+                "createTime": "2019-10-17 14:41:33",
+                "updateUser": "",
+                "createUser": "",
+                "updateTime": "",
+                "ksmc": "\u827A\u672F\u7EC4",
+                "yxmc": "\u751F\u7269\u5DE5\u7A0B\u5B66\u9662"
+            },
+            {
+                "ksid": 10,
+                "ksh": "110130",
+                "yxid": 3,
+                "yxbm": "120000",
+                "createTime": "2019-10-17 14:42:19",
+                "updateUser": "",
+                "createUser": "",
+                "updateTime": "",
+                "ksmc": "\u5E7C\u6559\u7EC4",
+                "yxmc": "\u751F\u7269\u5DE5\u7A0B\u5B66\u9662"
+            },
+            {
+                "ksid": 11,
+                "ksh": "110131",
+                "yxid": 3,
+                "yxbm": "120000",
+                "createTime": "2019-10-17 14:42:37",
+                "updateUser": "",
+                "createUser": "",
+                "updateTime": "",
+                "ksmc": "\u6C7D\u4FEE\u6280\u672F\u7EC4",
+                "yxmc": "\u751F\u7269\u5DE5\u7A0B\u5B66\u9662"
+            },
+            {
+                "ksid": 12,
+                "ksh": "110132",
+                "yxid": 3,
+                "yxbm": "120000",
+                "createTime": "2019-10-17 14:42:58",
+                "updaterName": "\u6559\u52A1\u4E3B\u4EFB",
+                "updateUser": "1136153078811123714",
+                "createUser": "",
+                "updateTime": "2019-10-17 19:00:39",
+                "ksmc": "\u751F\u7269\u5DE5\u7A0B\u7EC4",
+                "yxmc": "\u751F\u7269\u5DE5\u7A0B\u5B66\u9662"
+            }
+        ]
+    }
+]

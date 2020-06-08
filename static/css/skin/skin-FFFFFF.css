@@ -1,0 +1,164 @@
+.yd-left-menu {
+  background: #fff;
+}
+.yd-left-menu .yd-menu-ul .yd-nav-item .yd-nav-bar {
+  color: #333;
+}
+.yd-left-menu .yd-menu-ul .yd-nav-item .yd-nav-child li a {
+  color: #BCBCBC;
+}
+.yd-left-menu .yd-menu-ul .yd-this {
+  background: #F3F5F9;
+}
+.yd-left-menu .yd-menu-ul .yd-this .yd-nav-bar {
+  background: #5693FF;
+  color: #fff;
+}
+.yd-left-menu .yd-menu-ul .yd-this .yd-nav-child .active .yd-two-bar {
+  color: #333;
+}
+.yd-left-menu .yd-menu-ul .yd-this .yd-nav-child .active .yd-two-bar:before {
+  background-color: #333;
+}
+.yd-left-menu .yd-menu-ul .yd-this .yd-nav-child .yd-nav-child .active a {
+  color: #333;
+}
+.bg-skin {
+  background-color: #5693FF;
+}
+.bg-skin-imp {
+  background-color: #5693FF !important;
+}
+.active-bg-skin {
+  background-color: #FFBC13;
+}
+.font-skin {
+  color: #5693FF;
+}
+.active-font-skin {
+  color: #5693FF;
+}
+.icon-skin {
+  color: #5693FF !important;
+}
+.border-skin {
+  border: 1px solid #5693FF !important;
+}
+.border-color-skin {
+  border-color: #5693FF;
+}
+.status-skin {
+  background-color: #FFBC13;
+}
+.hover-skin:hover * {
+  color: #5693FF !important;
+}
+.edit-btn,
+.detail-btn,
+.manager-btn {
+  color: #5693FF;
+}
+.text-blue {
+  color: #5693FF;
+}
+.yd-tabs-header .is-active:before {
+  background-color: #5693FF;
+}
+.yd-header .header-skin:hover p,
+.yd-header .header-skin:hover i {
+  color: #5693FF;
+}
+.yd-header .header-skin:hover .login-icon i {
+  color: #5693FF;
+}
+.yd-main .yd-router-title .el-input-group__append,
+.yd-main .yd-common-search .el-input-group__append {
+  background: #5693FF;
+  border: 1px solid #5584ef;
+}
+.yd-main .el-button--primary {
+  background: #5693FF;
+  border: 1px solid #5584ef;
+}
+.yd-main .el-tabs__header .el-tabs__item.is-active,
+.yd-main .el-tabs__header .el-tabs__item:hover {
+  color: #5693FF;
+}
+.yd-main .el-tabs__header .el-tabs__active-bar {
+  background: #5693FF;
+}
+.yd-main .el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: #5693FF;
+}
+.yd-main .yd-add-btn {
+  background: url("../../img/btn-FFFFFF.png") no-repeat;
+}
+.yd-main .el-radio__input.is-checked .el-radio__inner {
+  border-color: #5693FF;
+  background: #5693FF;
+}
+.yd-main .el-radio__input.is-checked + .el-radio__label {
+  color: #5693FF;
+}
+.yd-main .el-radio-button__orig-radio:checked + .el-radio-button__inner {
+  border-color: #5693FF;
+  background: #5693FF;
+  box-shadow: none;
+}
+.yd-main .yd-educational-info-dialog .yd-custom-tab2 .el-tabs__header .el-tabs__item.is-active {
+  color: #5693FF;
+  border: 1px solid #5693FF;
+}
+.yd-main .yd-common-steps .step-list.active .round {
+  background: #5693FF;
+}
+.yd-main .yd-common-steps .step-list.active h3 {
+  color: #5693FF;
+}
+.yd-educational-arranging .arranging-steps .step-list:first-child.active {
+  background-color: #5693FF;
+  border-top: 1px solid #5693FF;
+  border-bottom: 1px solid #5693FF;
+}
+.yd-educational-arranging .arranging-steps .step-list:first-child.active .left:before {
+  border-left: 30px solid #5693FF;
+}
+.yd-educational-arranging .arranging-steps .step-list.active {
+  background-color: #5693FF;
+  border-top: 1px solid #5693FF;
+  border-bottom: 1px solid #5693FF;
+}
+.yd-educational-arranging .arranging-steps .step-list.active .left {
+  border-left: 30px solid #5693FF;
+}
+.yd-educational-arranging .arranging-steps .step-list.active .left:before {
+  right: 0px;
+}
+.yd-educational-arranging .arranging-steps .step-list.active .right {
+  border-left: 30px solid #5693FF;
+}
+.yd-educational-arranging .arranging-steps .step-list.active .right:after {
+  border-left: 30px solid #5693FF;
+}
+.arranging-course-one .isflagbox .el-radio.is-bordered.is-checked {
+  background-color: #5693FF;
+  border-color: #5693FF;
+}
+.arranging-course-one .isflagbox .el-radio-button__orig-radio:checked + .el-radio-button__inner {
+  background-color: #5693FF;
+  border-color: #5693FF;
+  -webkit-box-shadow: -1px 0 0 0 #5693FF;
+  box-shadow: -1px 0 0 0 #5693FF;
+}
+.setting-common-table .el-input-group__append {
+  background-color: #5693FF;
+  border: 1px solid #5584ef;
+}
+.arranging-setting-color .el-checkbox__input.is-checked + .el-checkbox__label {
+  color: #5693FF;
+}
+.arranging-setting-color .el-checkbox__input.is-checked .el-checkbox__inner {
+  background-color: #5693FF;
+  border-color: #5693FF;
+}
+/*# sourceMappingURL=skin-FFFFFF.css.map */

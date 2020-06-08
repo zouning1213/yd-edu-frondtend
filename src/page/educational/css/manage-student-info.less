@@ -1,0 +1,35 @@
+.manage-student-info {
+    & > .yd-common-search {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        & > .fl {
+            flex: 1;
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            -webkit-flex: 1;
+            flex: 1;
+        }
+    }
+    .el-tabs__header {
+        border-bottom: none;
+    }
+    //编辑框中页面微调
+    .el-checkbox__label {
+        font-size: 0;
+    }
+}
+
+//添加学生弹窗
+.dialog-add-student {
+    .el-dialog__body {
+        padding-bottom: 0;
+    }
+    .el-dialog__footer {
+        padding-bottom: 40px;
+    }
+    .common-info-edit .el-form {
+        padding-bottom: 0;
+    }
+}

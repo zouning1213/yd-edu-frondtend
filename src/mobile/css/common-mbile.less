@@ -1,0 +1,185 @@
+
+.el-message-box {
+    width: auto;
+}
+
+.add-wrap-buttom {
+    margin: 10px 10%;
+    width: 80%;
+    height: 44px;
+    background-color: #3262EC;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    span {
+        line-height: 44px;
+        color: #fff;
+    }
+
+}
+
+.pb-88 {
+    padding-bottom: 50px;
+}
+
+a {
+    color: #000
+}
+
+.color-999 {
+    color: #999;
+}
+
+.pr-20 {
+    padding-right: 10px;
+}
+
+.pd20 {
+    padding: 20px;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.zn-checkbox {
+    .el-checkbox__inner {
+    }
+    .el-checkbox__label {
+        display: none;
+    }
+}
+
+.bg-fff {
+    background-color: #fff;
+}
+
+.bg-F3F5F7 {
+    background-color: #F3F5F7;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+//公共外层
+.mobile-common-warp {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+    //公共头部
+    .mobile-common-header {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        .van-search {
+            padding: 6px 0px;
+        }
+    }
+    //公共内容
+    .mobile-common-main {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .mobile-common-header ~ .mobile-common-main {
+        top: 46px;
+    }
+    .mobile-common-footer ~ .mobile-common-main {
+        bottom:50px;
+    }
+    .mobile-common-footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 99;
+    }
+    //公共popup 的外层 需要固定最大高度,避免弹出层位置错乱
+    .common-popup-warp {
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .phone-add {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 44px;
+        background-color: #3262EC;
+        font-size: 17px;
+        text-align: center;
+        span {
+            line-height: 44px;
+            color: #fff;
+        }
+    }
+    .phone-detail-add-wrap {
+        width: 100%;
+        margin-top: 10px;
+        background-color: #fff;
+
+        .el-select {
+            width: 100%;
+        }
+    }
+}
+
+//统一列表样式
+.mobile-common-List {
+    width: 100%;
+    padding: 10px 10px 0 10px;
+    .common-list {
+        padding: 16px;
+        width: 100%;
+        background: #fff;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        margin-bottom: 8px;
+        .list-content {
+            clear: both;
+            h2 {
+                font-size: 16px;
+                margin-bottom: 6px;
+            }
+            h4 {
+                font-size: 15px;
+                margin-bottom: 5px;
+            }
+            p {
+                font-size: 14px;
+                color: #666;
+                margin-bottom: 4px;
+                i {
+                    font-size: 13px;
+                    color: #666666;
+                    margin-right: 6px;
+                }
+            }
+            .explain {
+                padding-top: 10px;
+                border-top: 1px solid rgba(243, 245, 247, 1);
+            }
+        }
+    }
+}

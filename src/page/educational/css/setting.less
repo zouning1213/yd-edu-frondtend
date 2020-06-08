@@ -1,0 +1,125 @@
+.yd-manage-setting {
+    .setting-common-pd {
+        padding: 20px 50px;
+        .setting-ul {
+            li {
+                padding: 20px 0;
+                border-bottom: 2px solid #F3F5F7;
+                h3 {
+                    font-size: 16px;
+                    color: #333333;
+                    position: relative;
+                    padding-left: 14px;
+                    margin-bottom: 16px;
+                    &::before {
+                        content: '';
+                        width: 4px;
+                        height: 16px;
+                        background-color: #999;
+                        position: absolute;
+                        left: 0;
+                        top: 2px;
+                    }
+                }
+                .tip {
+                    line-height: 20px;
+                    font-size: 13px;
+                    color: #333;
+                    i {
+                        font-size: 20px;
+                        color: #EC526C;
+                        vertical-align: middle;
+                        margin-right: 10px;
+                        position: relative;
+                        top: -1px;
+                    }
+                }
+                .unit {
+                    margin-left: 8px;
+                    font-size: 14px;
+                }
+                .explain {
+                    font-size: 14px;
+                }
+                .explain-1 {
+                    font-size: 16px;
+                    margin-bottom: 6px;
+                }
+            }
+        }
+        .el-input__inner {
+            border-radius: inherit;
+        }
+        .el-switch {
+            height: 40px;
+            line-height: 40px;
+            .el-switch__core {
+                height: 32px;
+                -webkit-border-radius: 16px;
+                -moz-border-radius: 16px;
+                border-radius: 16px;
+                &:after {
+                    width: 28px;
+                    height: 28px;
+                }
+            }
+        }
+        .el-switch.is-checked {
+            .el-switch__core::after {
+                margin-left: -30px;
+            }
+        }
+        .el-form-item {
+            margin-bottom: 10px;
+        }
+        .el-button--small {
+            padding: 9px 30px;
+        }
+        .el-button--text {
+            padding-left: 0;
+        }
+        .el-date-editor.el-input, .el-date-editor.el-input__inner {
+            width: 186px;
+        }
+    }
+    //分数设置
+    .setting-score {
+        .score-content {
+            margin-left: 16px;
+            .score-form {
+                margin-top: 18px;
+            }
+            .el-button--small {
+                i {
+                    margin-right: 6px;
+                }
+            }
+            .el-form-item__label {
+                color: #333;
+            }
+        }
+        .setting-ul {
+            li {
+                position: relative;
+                &::after {
+                    content: '';
+                    width: 2px;
+                    background-color: #F3F5F7;
+                    position: absolute;
+                    top: 50px;
+                    bottom: 50px;
+                    left: 50%;
+                }
+            }
+        }
+    }
+    .setting-grade, .setting-score {
+        .setting-ul {
+            li {
+                &:last-child {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+}

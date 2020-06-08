@@ -1,0 +1,164 @@
+.yd-left-menu {
+  background: linear-gradient(0deg, #fb677f, #fe822c);
+}
+.yd-left-menu .yd-menu-ul .yd-nav-item .yd-nav-bar {
+  color: rgba(255, 255, 255, 0.85);
+}
+.yd-left-menu .yd-menu-ul .yd-nav-item .yd-nav-child li a {
+  color: rgba(255, 255, 255, 0.65);
+}
+.yd-left-menu .yd-menu-ul .yd-this {
+  background: transparent;
+}
+.yd-left-menu .yd-menu-ul .yd-this .yd-nav-bar {
+  background: #FF8C5A;
+  color: #ffffff;
+}
+.yd-left-menu .yd-menu-ul .yd-this .yd-nav-child .active .yd-two-bar {
+  color: #ffffff;
+}
+.yd-left-menu .yd-menu-ul .yd-this .yd-nav-child .active .yd-two-bar:before {
+  background-color: #ffffff;
+}
+.yd-left-menu .yd-menu-ul .yd-this .yd-nav-child .yd-nav-child .active a {
+  color: #ffffff;
+}
+.bg-skin {
+  background-color: #F3652F;
+}
+.bg-skin-imp {
+  background-color: #F3652F !important;
+}
+.active-bg-skin {
+  background-color: #81A75A;
+}
+.font-skin {
+  color: #F3652F;
+}
+.active-font-skin {
+  color: #F3652F;
+}
+.icon-skin {
+  color: #F3652F !important;
+}
+.border-skin {
+  border: 1px solid #F3652F !important;
+}
+.border-color-skin {
+  border-color: #F3652F;
+}
+.status-skin {
+  background-color: #F3652F;
+}
+.hover-skin:hover * {
+  color: #F3652F !important;
+}
+.edit-btn,
+.detail-btn,
+.manager-btn {
+  color: #E8622E;
+}
+.text-blue {
+  color: #F3652F;
+}
+.yd-tabs-header .is-active:before {
+  background-color: #F3652F;
+}
+.yd-header .header-skin:hover p,
+.yd-header .header-skin:hover i {
+  color: #F3652F;
+}
+.yd-header .header-skin:hover .login-icon i {
+  color: #F3652F;
+}
+.yd-main .yd-router-title .el-input-group__append,
+.yd-main .yd-common-search .el-input-group__append {
+  background: #F3652F;
+  border: 1px solid #FF8C5A;
+}
+.yd-main .el-button--primary {
+  background: #F3652F;
+  border: 1px solid #FF8C5A;
+}
+.yd-main .el-tabs__header .el-tabs__item.is-active,
+.yd-main .el-tabs__header .el-tabs__item:hover {
+  color: #F3652F;
+}
+.yd-main .el-tabs__header .el-tabs__active-bar {
+  background: #F3652F;
+}
+.yd-main .el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: #F3652F;
+}
+.yd-main .yd-add-btn {
+  background: url("../../img/btn-F3652F.png") no-repeat;
+}
+.yd-main .el-radio__input.is-checked .el-radio__inner {
+  border-color: #F3652F;
+  background: #F3652F;
+}
+.yd-main .el-radio__input.is-checked + .el-radio__label {
+  color: #F3652F;
+}
+.yd-main .el-radio-button__orig-radio:checked + .el-radio-button__inner {
+  border-color: #F3652F;
+  background: #F3652F;
+  box-shadow: none;
+}
+.yd-main .yd-educational-info-dialog .yd-custom-tab2 .el-tabs__header .el-tabs__item.is-active {
+  color: #F3652F;
+  border: 1px solid #F3652F;
+}
+.yd-main .yd-common-steps .step-list.active .round {
+  background: #F3652F;
+}
+.yd-main .yd-common-steps .step-list.active h3 {
+  color: #F3652F;
+}
+.yd-educational-arranging .arranging-steps .step-list:first-child.active {
+  background-color: #F3652F;
+  border-top: 1px solid #F3652F;
+  border-bottom: 1px solid #F3652F;
+}
+.yd-educational-arranging .arranging-steps .step-list:first-child.active .left:before {
+  border-left: 30px solid #F3652F;
+}
+.yd-educational-arranging .arranging-steps .step-list.active {
+  background-color: #F3652F;
+  border-top: 1px solid #F3652F;
+  border-bottom: 1px solid #F3652F;
+}
+.yd-educational-arranging .arranging-steps .step-list.active .left {
+  border-left: 30px solid #F3652F;
+}
+.yd-educational-arranging .arranging-steps .step-list.active .left:before {
+  right: 0px;
+}
+.yd-educational-arranging .arranging-steps .step-list.active .right {
+  border-left: 30px solid #F3652F;
+}
+.yd-educational-arranging .arranging-steps .step-list.active .right:after {
+  border-left: 30px solid #F3652F;
+}
+.arranging-course-one .isflagbox .el-radio.is-bordered.is-checked {
+  background-color: #F3652F;
+  border-color: #F3652F;
+}
+.arranging-course-one .isflagbox .el-radio-button__orig-radio:checked + .el-radio-button__inner {
+  background-color: #F3652F;
+  border-color: #F3652F;
+  -webkit-box-shadow: -1px 0 0 0 #F3652F;
+  box-shadow: -1px 0 0 0 #F3652F;
+}
+.setting-common-table .el-input-group__append {
+  background-color: #F3652F;
+  border: 1px solid #FF8C5A;
+}
+.arranging-setting-color .el-checkbox__input.is-checked + .el-checkbox__label {
+  color: #F3652F;
+}
+.arranging-setting-color .el-checkbox__input.is-checked .el-checkbox__inner {
+  background-color: #F3652F;
+  border-color: #F3652F;
+}
+/*# sourceMappingURL=skin-F3652F.css.map */

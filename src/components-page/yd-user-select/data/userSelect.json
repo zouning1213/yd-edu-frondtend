@@ -1,0 +1,62 @@
+{
+    "userData": [
+        {
+            "id": 1,
+            "label": "武汉雨滴科技有限公司",
+            "icon":"el-icon-film",
+            "children": [
+                {
+                    "id": 4,
+                    "label": "财务部",
+                    "icon":"el-icon-office-building",
+                    "children": [
+                        {
+                            "id": 9,
+                            "label": "何莹",
+                            "icon":"el-icon-s-custom"
+                        },
+                        {
+                            "id": 10,
+                            "label": "徐玲",
+                            "icon":"el-icon-s-custom"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "label": "明华旭日科技有限公司",
+            "icon":"el-icon-film",
+            "children": [
+                {
+                    "id": 5,
+                    "icon":"el-icon-office-building",
+                    "label": "技术部"
+                },
+                {
+                    "id": 6,
+                    "icon":"el-icon-office-building",
+                    "label": "研发部"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "label": "武汉袋兜兜环保科技有限公司",
+            "icon":"el-icon-film",
+            "children": [
+                {
+                    "id": 7,
+                    "icon":"el-icon-office-building",
+                    "label": "环保部"
+                },
+                {
+                    "id": 8,
+                    "icon":"el-icon-office-building",
+                    "label": "测试部"
+                }
+            ]
+        }
+    ]
+}

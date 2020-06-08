@@ -1,0 +1,134 @@
+.yd-schedule {
+    .no-schedule-tip {
+        text-align: center;
+        padding: 40px 0;
+        img {
+            width: 344px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 16px;
+            color: #CCC;
+        }
+    }
+    .schedule-table {
+        width: 100%;
+        .table-head, .table-body {
+            tr {
+                td, th {
+                    text-align: center;
+                }
+            }
+        }
+        .table-head {
+            th {
+                padding: 20px 0;
+                color: #333;
+                font-size: 14px;
+                color: rgba(0, 0, 0, 1);
+                border-color: #fff;
+                border-bottom-color: #DCDFE6;
+                font-weight: normal;
+                span {
+                    padding: 8px 20px;
+                    display: inline-block;
+                }
+                .active {
+                    border-radius: 16px;
+                    color: #fff;
+                }
+            }
+        }
+        .table-body {
+            tr {
+                td {
+                    text-align: left;
+                    border: 1px solid #DCDFE6;
+                    padding: 0 2px;
+                    .schedule-block {
+                        min-height: 140px;
+                        p {
+                            cursor: pointer;
+                            font-size: 13px;
+                            color: #333;
+                            line-height: 18px;
+                        }
+                        span {
+                            font-size: 14px;
+                            color: #999;
+                            margin-left: 2px;
+                        }
+                    }
+                    .info-list {
+                        background-color: #EEFFE6;
+                        padding: 2px 4px;
+                        &:nth-child(1) {
+                            background-color: #FFEBEB;
+                        }
+                        &:nth-child(2) {
+                            background-color: #F4FBFF;
+                        }
+                        &:nth-child(3) {
+                            background-color: #EEFFE6;
+                        }
+                        &:nth-child(4) {
+                            background-color: #FFF0DE;
+                        }
+                        &:nth-child(5) {
+                            background-color: #D7FFF7;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//日程详情
+.arranging-schedule-info {
+    position: fixed;
+    z-index: 9;
+    width: 350px;
+    background: #fff;
+    color: #999999;
+    box-shadow: 0px 3px 7px 0px rgba(48, 48, 48, 0.08);
+    border-radius: 4px;
+    .title {
+        padding-left: 20px;
+        line-height: 40px;
+        height: 40px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #333333;
+        border-bottom: 1px solid #F3F5F7;
+        span {
+            display: inline-block;
+            padding: 0 20px;
+            font-size: 16px;
+            cursor: pointer;
+            color: #999;
+        }
+    }
+    .info-list-ul {
+        padding: 10px 20px 10px 20px;
+        .info-list {
+            margin-bottom: 12px;
+            p {
+                font-size: 13px;
+                color: #999;
+            }
+            span {
+                margin-left: 8px;
+                color: #666;
+            }
+            i {
+                font-size: 16px;
+                margin-right: 8px;
+                width: 16px;
+                height: 16px;
+                line-height: 16px;
+                vertical-align: text-top;
+            }
+        }
+    }
+}

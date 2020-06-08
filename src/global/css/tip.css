@@ -1,0 +1,28 @@
+.yd-common-tip {
+  text-align: center;
+  height: 361px;
+}
+.yd-common-tip img {
+  max-width: 580px;
+  margin-bottom: 30px;
+}
+.yd-common-tip p {
+  font-size: 16px;
+  color: #ccc;
+  padding: 0 30px;
+}
+.yd-common-tip p span {
+  margin: 0 8px;
+  color: #1988fa;
+}
+.yd-common-tip .btn-group {
+  margin-top: 30px;
+  text-align: center;
+}
+@media screen and (min-width: 323px) and (max-width: 768px) {
+  .yd-common-tip p span {
+    display: block;
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=tip.css.map */

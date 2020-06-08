@@ -1,0 +1,634 @@
+.yd-page-login-warp {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    background-image: url('../../page/layout/img/login-bg.png');
+
+    .login-content {
+        width: 1050px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -525px;
+        margin-top: -300px;
+        .header-warp, .footer-warp {
+            position: absolute;
+            text-align: center;
+            left: 0;
+            right: 0;
+        }
+        .header-warp {
+            top: -70px;
+            h3 {
+                font-size: 32px;
+                color: rgba(255, 255, 255, 1);
+                span {
+                    font-size: 24px;
+                    font-weight: normal;
+                }
+            }
+        }
+        .footer-warp {
+            bottom: -47px;
+            .copyright {
+                a {
+                    font-size: 14px;
+                    color: #fff;
+                }
+            }
+        }
+        .content-warp {
+            min-height: 540px;
+            background-color: #fff;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            border-radius: 8px;
+            padding-top: 38px;
+            padding-bottom: 25px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            h4 {
+                font-size: 28px;
+                font-weight: 500;
+                color: rgba(51, 51, 51, 1);
+                text-align: center;
+                margin-top: 28px;
+            }
+            .warp-left, .warp-right {
+                width: 50%;
+                height: 440px;
+                float: left;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+            .warp-left {
+                text-align: center;
+                border-right: 1px solid #e5e5e5;
+                padding-top: 65px;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                img {
+                    width: 80%;
+                }
+            }
+            .warp-right {
+                .form-list, .quick-login {
+                    width: 360px;
+                    margin: 0 auto;
+                }
+                .quick-login {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 20px;
+                    li {
+                        //display: inline-block;
+                        //flex: 1;
+                        cursor: pointer;
+                        img {
+                            width: 18px;
+                            margin-right: 5px;
+                            position: relative;
+                            top: -1px;
+                        }
+                        span {
+                            display: inline-block;
+                            font-size: 12px;
+                            color: #999;
+                        }
+                    }
+                }
+            }
+            .login-tip .tip, .login-input .tip {
+                position: absolute;
+                font-size: 12px;
+                color: red;
+                bottom: -20px;
+                left: 40px;
+            }
+            .login-tip {
+                clear: both;
+                margin-top: 27px;
+                position: relative;
+                label, .help a {
+                    font-size: 12px;
+                    color: #666;
+                }
+                label {
+                    cursor: pointer;
+                    float: left;
+                    input[type=checkbox] {
+                        margin-right: 8px;
+                        position: relative;
+                        top: -2px;
+                    }
+                }
+                .help {
+                    float: right;
+                    a {
+                        display: block;
+                        &:hover {
+                            color: #3262EC;
+                        }
+                    }
+                }
+                .code {
+                    width: 216px;
+                    float: left;
+                    -webkit-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    border-radius: 4px;
+                    input {
+                        width: 100%;
+                        height: 44px;
+                        line-height: 44px;
+                        -webkit-border-radius: 4px;
+                        -moz-border-radius: 4px;
+                        border-radius: 4px;
+                        border: 1px solid #e5e5e5;
+                        text-indent: 2em;
+                        &::placeholder {
+                            font-size: 14px;
+                            color: #ccc;
+                        }
+                        &:focus {
+                            border: 1px solid #3262EC;
+                            border: 1px solid rgba(50, 98, 236, 1);
+                            box-shadow: 0px 3px 7px 0px rgba(59, 59, 59, 0.14);
+                        }
+                    }
+                }
+                .send-code {
+                    width: 126px;
+                    //padding: 10px;
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                    height: 44px;
+                    line-height: 44px;
+                    float: right;
+                    img {
+                        max-width: 100%;
+                        height: 44px;
+                        -webkit-border-radius: 4px;
+                        -moz-border-radius: 4px;
+                        border-radius: 4px;
+                    }
+                }
+
+            }
+            .login-input {
+                //height: 44px;
+                position: relative;
+                margin-top: 24px;
+                .label {
+                    width: 40px;
+                    height: 16px;
+                    line-height: 16px;
+                    position: absolute;
+                    left: 0;
+                    top: 14px;
+                    text-align: center;
+                    border-right: 1px solid #e5e5e5;
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                    img {
+                        height: 16px;
+                        position: relative;
+                        top: -1px;
+                    }
+                }
+                input {
+                    width: 100%;
+                    height: 44px;
+                    line-height: 44px;
+                    -webkit-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    border-radius: 4px;
+                    border: 1px solid #e5e5e5;
+                    text-indent: 5em;
+                    &::placeholder {
+                        font-size: 14px;
+                        color: #ccc;
+                    }
+                    &:focus {
+                        border: 1px solid #3262EC;
+                        border: 1px solid rgba(50, 98, 236, 1);
+                        box-shadow: 0px 3px 7px 0px rgba(59, 59, 59, 0.14);
+                    }
+                }
+                button {
+                    width: 100%;
+                    height: 44px;
+                    border: none;
+                    outline: none;
+                    font-size: 16px;
+                    color: rgba(255, 255, 255, 1);
+                    background-color: #3262ec;
+                    -webkit-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    &:hover {
+                        color: rgba(255, 255, 255, 0.85);
+                    }
+                }
+            }
+            .login-notice {
+                padding: 20px 60px 0 100px;
+                position: relative;
+                .notice-icon {
+                    position: absolute;
+                    left: 33px;
+                    img {
+                        width: 13px;
+                        margin-right: 8px;
+                        position: relative;
+                        top: -2px;
+                    }
+                    font-size: 16px;
+                    color: #333;
+                    font-weight: 500;
+                }
+                a {
+                    font-size: 14px;
+                    color: #666;
+                    line-height: 28px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    display: inline-block;
+                    width: 100%;
+                    &:hover {
+                        color: #3262EC;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1600px) {
+    .yd-page-login-warp {
+        .login-content {
+            width: 960px;
+            margin-top: -270px;
+            margin-left: -480px;
+            .header-warp {
+                top: -60px;
+                h3 {
+                    font-size: 28px;
+                }
+            }
+            .content-warp {
+                min-height: inherit;
+                .warp-left {
+                    padding-top: 45px;
+                }
+                .warp-left, .warp-right {
+                    height: 420px;
+                }
+                h4 {
+                    font-size: 24px;
+                    margin-top: 10px;
+                }
+                .login-input {
+                    input {
+                        height: 38px;
+                        line-height: 38px;
+                    }
+                    button{
+                        height: 38px;
+                        line-height: 38px;
+                    }
+                    .label {
+                        top: 11px;
+                    }
+                }
+                .login-tip {
+                    .code {
+                        input {
+                            height: 38px;
+                            line-height: 38px;
+                        }
+                    }
+                    .send-code {
+                        height: 40px;
+                        line-height: 40px;
+                        img{
+                            height: 40px;
+                        }
+                    }
+                }
+                .login-notice {
+                    a {
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1440px) {
+    .yd-page-login-warp {
+        .login-content {
+            width: 920px;
+            margin-top: -260px;
+            margin-left: -460px;
+            .header-warp {
+                top: -60px;
+                h3 {
+                    font-size: 28px;
+                }
+            }
+            .content-warp {
+                min-height: inherit;
+                .warp-left {
+                    padding-top: 45px;
+                    img{
+                        width: 72%;
+                    }
+                }
+                .warp-left, .warp-right {
+                    height: 380px;
+                }
+                h4 {
+                    font-size: 24px;
+                    margin-top: 0px;
+                }
+                .login-input {
+                    input {
+                        height: 36px;
+                        line-height: 36px;
+                    }
+                    .label {
+                        top: 11px;
+                    }
+                    button{
+                        height: 36px;
+                        line-height: 36px;
+                    }
+                }
+                .login-tip {
+                    .code {
+                        input {
+                            height: 36px;
+                            line-height: 36px;
+                        }
+                    }
+                    .send-code {
+                        height: 38px;
+                        line-height: 38px;
+                        img{
+                            height: 38px;
+                        }
+                    }
+                }
+                .login-notice {
+                    a {
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+    .yd-page-login-warp {
+        .login-content {
+            width: 860px;
+            margin-top: -220px;
+            margin-left: -430px;
+            .header-warp {
+                top: -50px;
+                h3 {
+                    font-size: 22px;
+                }
+            }
+            .content-warp {
+                min-height: inherit;
+                .warp-left {
+                    padding-top: 45px;
+                    img{
+                        width: 70%;
+                    }
+                }
+                .warp-left, .warp-right {
+                    height: 340px;
+                    .form-list, .quick-login {
+                        width: 320px;
+                    }
+                }
+                h4 {
+                    font-size: 20px;
+                    margin-top: 0px;
+                }
+                .login-input {
+                    margin-top: 20px;
+                    input {
+                        height: 32px;
+                        line-height: 32px;
+                    }
+                    .label {
+                        top: 9px;
+                    }
+                    button{
+                        height: 34px;
+                        line-height: 34px;
+                    }
+                    .tip{
+                        bottom: -17px;
+                    }
+                }
+                .login-tip {
+                    margin-top: 22px;
+                    .code {
+                        width: 176px;
+                        input {
+                            height: 32px;
+                            line-height: 32px;
+                        }
+                    }
+                    .send-code {
+                        height: 34px;
+                        line-height: 34px;
+                        img{height: 34px}
+                    }
+                }
+                .login-notice {
+                    a {
+                        line-height: inherit;
+                        font-size: 13px;
+                    }
+                }
+            }
+            .footer-warp{
+                bottom: -37px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1280px) {
+    .yd-page-login-warp {
+        .login-content {
+            width: 860px;
+            margin-top: -220px;
+            margin-left: -430px;
+            .header-warp {
+                top: -50px;
+                h3 {
+                    font-size: 24px;
+                }
+            }
+            .content-warp {
+                min-height: inherit;
+                .warp-left {
+                    padding-top: 45px;
+                    img{
+                        width: 70%;
+                    }
+                }
+                .warp-left, .warp-right {
+                    height: 340px;
+                    .form-list, .quick-login {
+                        width: 320px;
+                    }
+                }
+                h4 {
+                    font-size: 20px;
+                    margin-top: 0px;
+                }
+                .login-input {
+                    margin-top: 20px;
+                    input {
+                        height: 32px;
+                        line-height: 32px;
+                    }
+                    button{
+                        height: 34px;
+                        line-height: 34px;
+                    }
+                    .label {
+                        top: 9px;
+                    }
+                }
+                .login-tip {
+                    .code {
+                        width: 176px;
+                        input {
+                            height: 32px;
+                            line-height: 32px;
+                        }
+                    }
+                    .send-code {
+                        height: 32px;
+                        line-height: 32px;
+                        img{
+                            height: 32px;
+                        }
+                    }
+                }
+                .login-notice {
+                    a {
+                        line-height: inherit;
+                        font-size: 13px;
+                    }
+                }
+            }
+            .footer-warp{
+                bottom: -30px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 323px) and (max-width: 768px) {
+    .yd-page-login-warp {
+        .login-content {
+            width: 90%;
+            left: 5%;
+            right: 5%;
+            top: 15%;
+            bottom: 20%;
+            margin-left: 0;
+            margin-top: 0;
+            background-color: #fff;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            border-radius: 8px;
+            .header-warp {
+                top: -50px;
+                h3 {
+                    font-size: 20px;
+                    span {
+                        font-size: 18px;
+                    }
+                }
+            }
+            .content-warp {
+                padding-top: 0;
+                padding-bottom: 10px;
+                min-height: inherit;
+                .warp-left {
+                    display: none;
+                }
+                .warp-right {
+                    width: 100%;
+                    height: inherit;
+                    float: inherit;
+                    h4 {
+                        font-size: 22px;
+                        margin-top: 20px;
+                    }
+                    .form-list {
+                        width: 90%;
+                        .login-tip {
+                            .code {
+                                width: 60%;
+                            }
+                            .send-code {
+                                width: 34%;
+                            }
+                        }
+                        .login-input {
+                            margin-top: 20px;
+                        }
+                    }
+                    .quick-login {
+                        width: 100%;
+                        padding: 0 20px;
+                        -webkit-box-sizing: border-box;
+                        -moz-box-sizing: border-box;
+                        box-sizing: border-box;
+                    }
+                }
+                .login-notice {
+                    padding: 20px 10px 0 80px;
+                    display: none;
+                    .notice-icon {
+                        font-size: 14px;
+                        left: 20px;
+                    }
+                    p {
+                        line-height: 20px;
+                    }
+                    a {
+                        line-height: inherit;
+                    }
+                }
+            }
+            .footer-warp {
+                bottom: -55px;
+            }
+        }
+    }
+}

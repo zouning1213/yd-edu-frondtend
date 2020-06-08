@@ -1,0 +1,49 @@
+.yd-common-select-tree {
+    border: 1px solid #DCDCDC;
+    .tree-title {
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+        color: #fff;
+        padding: 0 20px;
+        margin: -1px;
+    }
+    .tree-content {
+        padding: 10px 13px;
+        overflow-y: auto;
+        overflow-x: auto;
+        .el-tree {
+            color: #333;
+            .point{
+                display: inline-block;
+                background-color: #f74c31;
+                font-size:12px;
+                color: #fff;
+                -webkit-border-radius: 4px;
+                -moz-border-radius: 4px;
+                border-radius: 4px;
+                vertical-align: top;
+                padding:1px 2px;
+            }
+        }
+        .el-tree-node__content {
+            height: 34px;
+            margin-bottom: 1px;
+            .yd {
+                color: #999;
+                margin-right: 8px;
+            }
+            .el-tree-node__expand-icon {
+                /*padding-right: 0;*/
+            }
+            .el-checkbox.is-disabled {
+                .el-checkbox__input.is-disabled {
+                    display: none;
+                }
+            }
+        }
+        .el-tree-node>.el-tree-node__children{
+            overflow: inherit;
+        }
+    }
+}

@@ -1,0 +1,347 @@
+@charset "UTF-8";
+@import "layout@media";
+
+@color: #3262EC;
+@color-active: #244ec6;
+.yd-header {
+    height: 60px;
+    background-color: #fff;
+    padding: 0 30px 0 30px;
+    .left-logo {
+        line-height: 60px;
+        float: left;
+        .logo {
+            max-height: 60px;
+            position: relative;
+            top: -1px;
+            margin-right: 20px;
+        }
+        h3 {
+            display: inline-block;
+            font-size: 18px;
+            color: #333;
+            font-weight: normal;
+        }
+    }
+    .layout-icon {
+        float: left;
+        margin-left: 46px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        text-align: center;
+        cursor: pointer;
+        margin-top: 9px;
+        i {
+            font-size: 20px;
+        }
+    }
+    .right-login {
+        float: right;
+        text-align: right;
+        li {
+            display: inline-block;
+            padding: 0 24px;
+            cursor: pointer;
+            p {
+                display: inline-block;
+                font-size: 14px;
+                color: #333;
+            }
+            .yd-author-span{
+                margin-right: 12px;
+            }
+        }
+        .login-icon {
+            width: 18px;
+            height: 18px;
+            line-height: 18px;
+            display: inline-block;
+            vertical-align: text-bottom;
+            margin-right: 8px;
+            i {
+                font-size: 18px;
+                color: #333;
+            }
+        }
+        .login-notice {
+            .login-icon {
+                position: relative;
+                margin-right: 0;
+                .num {
+                    width: 16px;
+                    height: 16px;
+                    line-height: 16px;
+                    text-align: center;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    border-radius: 50%;
+                    background-color: #f6104c;
+                    font-size: 12px;
+                    color: #fff;
+                    position: absolute;
+                    right: -15px;
+                    top: -8px;
+                }
+            }
+        }
+        .login-notice , .login-user , .login-type , .login-skin , .login-out{
+            padding-top: 14px;
+            .el-icon--right{
+                margin-left: 0;
+            }
+        }
+        .login-user {
+
+        }
+        .login-type{
+
+        }
+        .login-skin{
+
+        }
+        .login-out{
+
+        }
+    }
+}
+
+.yd-left-menu {
+    width: 220px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 9;
+    -webkit-box-shadow: 0px 3px 25px 5px rgba(131, 131, 131, 0.1);
+    -moz-box-shadow: 0px 3px 25px 5px rgba(131, 131, 131, 0.1);
+    box-shadow: 0px 3px 25px 5px rgba(131, 131, 131, 0.1);
+    .menu-scroll {
+        width: 240px;
+        height: 100%;
+        overflow: auto;
+    }
+    .yd-menu-ul {
+        width: 220px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        a {
+            display: block;
+            font-size: 14px;
+            padding-left: 54px;
+            padding-right: 20px;
+            position: relative;
+            .yd-icon, .yd-up {
+                position: absolute;
+            }
+            .yd-icon {
+                top: 16px;
+                left: 20px;
+                font-size: 18px;
+                width: 18px;
+            }
+            .yd-up {
+                top: 16px;
+                right: 20px;
+                font-size: 14px;
+                -webkit-transition: all 0.4s;
+                -moz-transition: all 0.4s;
+                -ms-transition: all 0.4s;
+                -o-transition: all 0.4s;
+                transition: all 0.4s;
+            }
+        }
+        .yd-nav-item {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            &.yd-this {
+                .yd-nav-bar {
+                    .yd-up {
+                        transform: rotate(180deg);
+                        -ms-transform: rotate(180deg);
+                        -moz-transform: rotate(180deg);
+                        -webkit-transform: rotate(180deg);
+                        -o-transform: rotate(180deg);
+                    }
+                }
+            }
+            //一级菜单
+            .yd-nav-bar {
+                height: 50px;
+                line-height: 50px;
+                //color: #fff;
+            }
+            //二级菜单
+            .yd-nav-child {
+                //padding: 8px 0;
+                li {
+                    a {
+                        height: 42px;
+                        line-height: 42px;
+                        //color:rgba(255,255,255,0.8);
+                    }
+                    &.active {
+                        .yd-two-bar {
+                            //color: #fff;
+                            position: relative;
+                            &::before {
+                                content: '';
+                                width: 4px;
+                                height: 4px;
+                                -webkit-border-radius: 50%;
+                                -moz-border-radius: 50%;
+                                border-radius: 50%;
+                                //background-color: #fff;
+                                position: absolute;
+                                left: 40px;
+                                top: 19px;
+                            }
+                            .yd-up {
+                                transform: rotate(180deg);
+                                -ms-transform: rotate(180deg);
+                                -moz-transform: rotate(180deg);
+                                -webkit-transform: rotate(180deg);
+                                -o-transform: rotate(180deg);
+                            }
+                        }
+                    }
+                }
+                //三级菜单
+                .yd-nav-child {
+                    padding: 0;
+                    .active {
+                        a {
+                            //color: #fff;
+                        }
+                    }
+                    li {
+                        a {
+                            padding-left: 81px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//小菜单样式
+.zn-menu {
+    .small-wrap {
+        overflow: initial;
+        width: 54px !important;
+    }
+    .yd-left-menu {
+        .small-menu-scroll {
+            .yd-nav-item {
+                &:hover {
+                    .menu-box-two {
+                        display: block;
+                    }
+                }
+            }
+            .yd-two-bar {
+                &:hover {
+                    .menu-box-three {
+                        display: block !important;
+                    }
+                }
+            }
+            .menu-scroll {
+                width: 54px;
+            }
+            .yd-menu-ul {
+                width: 54px;
+                a {
+                    padding: 0 10px;
+                    &::before {
+                        width: 0 !important;
+                    }
+                }
+                li {
+                    list-style: none;
+                }
+            }
+            .menu-box-two {
+                position: absolute;
+                left: 50px;
+                width: 140px;
+                top: 0;
+                z-index: 999;
+                display: none;
+                margin: 0 5px;
+            }
+            .menu-box-three {
+                left: 138px;
+                margin: 0 3px;
+                display: none;
+                a {
+                    padding: 0 10px !important;
+                    &::before {
+                        width: 0 !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .menu-wrap-enter {
+        opacity: 0;
+        transform: translateX(-250px);
+    }
+    .menu-wrap-leave-to {
+        opacity: 0;
+        transform: translateX(-250px);
+    }
+    .menu-wrap-enter-active,
+    .menu-wrap-leave-active {
+        transition: all 1s ease;
+    }
+}
+
+//最外层
+.yd-main {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-x: auto;
+    .main-pl {
+        padding-left: 95px;
+    }
+}
+
+//右侧路由
+.yd-right-router {
+    width: 100%;
+    height: 100%;
+    padding-left: 250px;
+    padding-right: 30px;
+    background-color: #F3F5F7;
+    overflow-y: auto;
+    min-width: 1100px;
+    padding-bottom: 20px;
+    transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+}
+
+//更换皮肤
+.login-skin-dropdown {
+    .el-dropdown-menu__item {
+        label {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            margin-right: 8px;
+            position: relative;
+            top: 1px;
+        }
+    }
+}
+

@@ -1,0 +1,170 @@
+.print-schedule {
+    width: 48px;
+    height: 48px;
+    line-height: 52px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    top: -6px;
+    i {
+        font-size: 20px;
+        color: #333;
+    }
+}
+
+.yd-schedule-black {
+    .schedule-title {
+        margin-bottom: 20px;
+        h3 {
+            font-size: 28px;
+            color: #000000;
+            display: inline-block;
+        }
+        .text {
+            margin-left: 14px;
+            font-size: 16px;
+            position: relative;
+            top: -5px;
+        }
+        .el-form-item {
+            margin-bottom: 0;
+            .el-form-item__label {
+                //line-height: 18px !important;
+            }
+            .el-form-item__content {
+                vertical-align: baseline;
+            }
+        }
+    }
+
+    .schedule-table {
+        width: 100%;
+        .arrow {
+            position: relative;
+            img {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 0;
+            }
+        }
+        .table-head, .table-body {
+            tr {
+                td, th {
+                    text-align: center;
+                    font-size: 14px;
+                    color: #000;
+                    border: 1px solid #999;
+                }
+            }
+        }
+        .table-head {
+            th {
+                padding: 18px 0;
+                font-weight: bold;
+            }
+        }
+        .table-body {
+            tr {
+                td {
+                    text-align: center;
+                    .schedule-block {
+                        min-height: 65px;
+                        text-align: left;
+                    }
+                    .info-list {
+                        //border-bottom: 1px dashed #999;
+                        padding: 4px 18px;
+                        cursor: pointer;
+                        &:last-child {
+                            border-bottom: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .schedule-table1 { //手机端课表
+        .table-body {
+            .schedule-block {
+                min-height: 140px;
+            }
+        }
+    }
+    .schedule-table0 {
+        .table-body {
+            .schedule-block {
+                min-height: 72px;
+            }
+        }
+    }
+}
+
+//课程表为空的时候提示
+.no-schedule-tip {
+    text-align: center;
+    padding: 40px 0;
+    img {
+        width: 344px;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 16px;
+        color: #CCC;
+    }
+}
+
+//日程详情
+.schedule-black-info {
+    position: fixed;
+    z-index: 9;
+    width: 350px;
+    background: #fff;
+    color: #999999;
+    box-shadow: 0px 3px 7px 0px rgba(48, 48, 48, 0.08);
+    border-radius: 4px;
+    .title {
+        padding-left: 20px;
+        line-height: 40px;
+        height: 40px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #333333;
+        border-bottom: 1px solid #F3F5F7;
+        span {
+            display: inline-block;
+            padding: 0 20px;
+            font-size: 16px;
+            cursor: pointer;
+            color: #999;
+        }
+    }
+    .info-list-ul {
+        padding: 10px 20px 10px 20px;
+        .info-list {
+            margin-bottom: 12px;
+            p {
+                font-size: 13px;
+                color: #999;
+            }
+            span {
+                margin-left: 8px;
+                color: #666;
+            }
+            i {
+                font-size: 16px;
+                margin-right: 8px;
+                width: 16px;
+                height: 16px;
+                line-height: 16px;
+                vertical-align: text-top;
+            }
+        }
+    }
+}

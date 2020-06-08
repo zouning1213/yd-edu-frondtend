@@ -1,0 +1,61 @@
+.target-teacher-warp {
+    .edit-teacher-info {
+        .target-title {
+            //border-bottom: 2px solid #F3F5F7;
+            position: relative;
+            height: 50px;
+            &::after{
+                content:'';
+                height: 2px;
+                background-color: #F3F5F7;
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 24px;
+            }
+            .name {
+                position: absolute;
+                left: 0;
+                top: 0px;
+                padding-right: 30px;
+                background-color: #fff;
+                line-height: 50px;
+                z-index: 9;
+                .line {
+                    width: 15px;
+                    height: 15px;
+                  /*  border-left: 3px solid #3E7857;
+                    border-right: 6px solid #3E7857;*/
+                    display: inline-block;
+                    vertical-align: text-top;
+                    margin-right: 10px;
+                    border-width: 0 6px 0 3px;
+                    border-style: solid;
+                }
+                h3 {
+                    font-size: 14px;
+                    font-weight: bold;
+                    //color: rgba(62, 120, 87, 1);
+                    display: inline-block;
+                }
+            }
+        }
+        .common-info-edit {
+            .el-form {
+                padding-bottom: 0;
+            }
+        }
+        .yd-common-info {
+            padding-top: 10px;
+        }
+        .yd-common-extend {
+            margin: 20px 0;
+        }
+        .yd-common-attachment {
+            .attachment-upload {
+                margin-top: 15px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

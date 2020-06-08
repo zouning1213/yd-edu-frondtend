@@ -1,0 +1,128 @@
+//为空提示
+.yd-student-design, .yd-student-design1 {
+    .no-design-tip {
+        text-align: center;
+        padding-top: 10%;
+        img {
+            max-width: 296px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+}
+
+//开始评教
+.yd-student-design {
+    .design-block {
+        margin-bottom: 20px;
+        .grid-content {
+            height: 182px;
+            background-color: #F3F5F7;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+            padding: 20px 20px;
+            h3 {
+                font-size: 26px;
+                color: #333;
+                font-weight: 400;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: 16px;
+                color: #333;
+                margin-bottom: 6px;
+            }
+            label {
+                width: 100%;
+                font-size: 14px;
+                color: #CCCCCC;
+                display: inline-block;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+            }
+            .el-button--medium {
+                padding: 10px 52px;
+            }
+        }
+    }
+    .history-block {
+        width: 168px;
+        display: inline-block;
+        padding: 20px 20px 16px;
+        background-color: #F3F5F7;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        h3 {
+            font-size: 16px;
+            color: #000000;
+            margin-top: 4px;
+        }
+        h4 {
+            font-size: 14px;
+            color: #FF0000;
+        }
+        p {
+            font-size: 12px;
+            color: #CCCCCC;
+        }
+        .el-button--text {
+            font-size: 12px;
+            text-decoration: underline;
+            color: #333333;
+        }
+    }
+}
+
+//正在评教
+.yd-student-design1 {
+    .title {
+        font-size: 16px;
+        color: #333;
+        font-weight: 550;
+    }
+    .check-list {
+        margin: 10px 0 20px;
+    }
+    table {
+        width: 100%;
+        thead, tbody {
+            th, td {
+                border: 1px solid #CCCCCC;
+                padding: 9px 20px;
+                p {
+                    font-size: 14px;
+                    color: #333;
+                }
+                .el-radio {
+                    margin-right: 14px;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+                .el-form-item {
+                    margin-bottom: 0;
+                }
+                .el-form-item__label {
+                    color: #333;
+                }
+                .el-form-item__error {
+                    top: 76%;
+                }
+            }
+        }
+        thead {
+            background-color: #F3F5F7;
+        }
+        tbody {
+            tr:nth-child(even) {
+                background-color: #F3F5F7;
+            }
+        }
+    }
+}
+

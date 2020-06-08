@@ -1,0 +1,214 @@
+@color: #1988fa;
+//选择用户按钮
+.yd-user-select-btn {
+    .user-select-tip {
+        min-width: 160px;
+        display: inline-block;
+        padding-left: 24px;
+        p {
+            font-size: 13px;
+            color: #595959;
+            cursor: pointer;
+        }
+    }
+}
+
+//显示已选择用户弹窗
+.show-user-select {
+    padding: 20px 20px;
+    max-width: 458px;
+    min-width: 200px;
+    max-height: 600px;
+    overflow: auto;
+    .select-list {
+        margin-bottom: 14px;
+        h3 {
+            display: inline-block;
+            height: 16px;
+            line-height: 16px;
+            padding: 0 16px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            background-color: @color;
+            font-size: 12px;
+            color: #fff;
+        }
+        ul {
+            margin-top: 12px;
+            li {
+                line-height: 24px;
+                margin-right: 6px;
+                font-size: 12px;
+                color: #595959;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+//用户选择器弹窗
+.user-select-dialog {
+    .el-dialog__header {
+        padding: 5px 30px;
+        background-color: @color;
+        .el-dialog__title {
+            font-size: 16px;
+            color: #fff;
+        }
+        .el-dialog__headerbtn {
+            top: 14px;
+            i {
+                color: #fff;
+            }
+        }
+    }
+    .el-dialog__body {
+        padding: 20px 0 20px 30px;
+        .user-select-title {
+            padding-right: 30px;
+            border-bottom: 2px solid #F4F4F4;
+            vertical-align: top;
+            .title-tab-ul {
+                float: left;
+                li {
+                    float: left;
+                    padding: 0 14px;
+                    cursor: pointer;
+                    &:first-child {
+                        padding-left: 0;
+                        position: relative;
+                        &::after {
+                            content: '';
+                            width: 1px;
+                            height: 20px;
+                            background-color: #F4F4F4;
+                            position: absolute;
+                            right: -1px;
+                            top: 4px;
+                        }
+                    }
+                    span {
+                        display: block;
+                        font-size: 16px;
+                        color: #595959;
+                        position: relative;
+                        height: 40px;
+                        line-height: 26px;
+                    }
+                    &.active {
+                        span {
+                            &::after {
+                                content: '';
+                                height: 2px;
+                                position: absolute;
+                                left: 0;
+                                right: 0;
+                                bottom: -1px;
+                                background-color: @color;
+                            }
+                        }
+                    }
+                }
+            }
+            .title-search {
+                float: right;
+                position: relative;
+                width: 240px;
+                height: 28px;
+                line-height: 28px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+                border: 1px solid #D8D8D8;
+                padding: 0 40px 0 10px;
+                input {
+                    height: 26px;
+                    width: 100%;
+                    font-size: 14px;
+                    color: #595959;
+                    position: relative;
+                    top: -2px;
+                    &::placeholder {
+                        color: #BFBFBF;
+                    }
+                }
+                .search-bth {
+                    width: 40px;
+                    height: 26px;
+                    position: absolute;
+                    right: 2px;
+                    top: 0px;
+                    background-color: #fff;
+                    outline: none;
+                    text-align: center;
+                    cursor: pointer;
+                    img {
+                        width: 18px;
+                        height: 18px;
+                        background-color: #fff;
+                    }
+                }
+            }
+        }
+        .user-select-tree {
+            padding-right: 30px;
+            .tree-top {
+                height: 34px;
+                line-height: 32px;
+                padding: 0 10px;
+                border: 1px solid #bae7ff;
+                background-color: #e6f7ff;
+                margin: 18px 0;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+                .checked-tip {
+                    float: left;
+                    margin-right: 20px;
+                    color: #000;
+                    i {
+                        color: @color;
+                        margin-right: 8px;
+                    }
+                    span {
+                        color: @color;
+                        margin: 0 4px;
+                    }
+                }
+                .el-button--text {
+                    padding: 6px 0;
+                    color: #8C8C8C;
+                }
+            }
+            .el-tree-node__content {
+                height: 38px;
+                & > .el-checkbox {
+                    margin-right: 10px;
+                }
+                .el-tree-node__label {
+                    font-size: 15px;
+                    color: #262626;
+                }
+            }
+            .el-tree-node__children {
+                .el-tree-node__content {
+                    .el-tree-node__label {
+                        font-size: 14px;
+                        color: #595959;
+                    }
+                }
+            }
+            .custom-tree-node {
+                i {
+                    margin-right: 8px;
+                    font-size: 16px;
+                    color: #aaa;
+                }
+            }
+        }
+    }
+    .dialog-footer {
+        text-align: center;
+    }
+}

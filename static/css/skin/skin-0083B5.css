@@ -1,0 +1,164 @@
+.yd-left-menu {
+  background: #0083B5;
+}
+.yd-left-menu .yd-menu-ul .yd-nav-item .yd-nav-bar {
+  color: rgba(255, 255, 255, 0.85);
+}
+.yd-left-menu .yd-menu-ul .yd-nav-item .yd-nav-child li a {
+  color: rgba(255, 255, 255, 0.65);
+}
+.yd-left-menu .yd-menu-ul .yd-this {
+  background: #0175A2;
+}
+.yd-left-menu .yd-menu-ul .yd-this .yd-nav-bar {
+  background: #09739B;
+  color: #ffffff;
+}
+.yd-left-menu .yd-menu-ul .yd-this .yd-nav-child .active .yd-two-bar {
+  color: #ffffff;
+}
+.yd-left-menu .yd-menu-ul .yd-this .yd-nav-child .active .yd-two-bar:before {
+  background-color: #ffffff;
+}
+.yd-left-menu .yd-menu-ul .yd-this .yd-nav-child .yd-nav-child .active a {
+  color: #ffffff;
+}
+.bg-skin {
+  background-color: #0083B5;
+}
+.bg-skin-imp {
+  background-color: #0083B5 !important;
+}
+.active-bg-skin {
+  background-color: #05C282;
+}
+.font-skin {
+  color: #0083B5;
+}
+.active-font-skin {
+  color: #0175A2;
+}
+.icon-skin {
+  color: #0083B5 !important;
+}
+.border-skin {
+  border: 1px solid #0083B5 !important;
+}
+.border-color-skin {
+  border-color: #0083B5;
+}
+.status-skin {
+  background-color: #5CBDC5;
+}
+.hover-skin:hover * {
+  color: #0083B5 !important;
+}
+.edit-btn,
+.detail-btn,
+.manager-btn {
+  color: #0083B5;
+}
+.text-blue {
+  color: #0083B5;
+}
+.yd-tabs-header .is-active:before {
+  background-color: #0083B5;
+}
+.yd-header .header-skin:hover p,
+.yd-header .header-skin:hover i {
+  color: #0083B5;
+}
+.yd-header .header-skin:hover .login-icon i {
+  color: #0083B5;
+}
+.yd-main .yd-router-title .el-input-group__append,
+.yd-main .yd-common-search .el-input-group__append {
+  background: #0083B5;
+  border: 1px solid #0074a2;
+}
+.yd-main .el-button--primary {
+  background: #0083B5;
+  border: 1px solid #0074a2;
+}
+.yd-main .el-tabs__header .el-tabs__item.is-active,
+.yd-main .el-tabs__header .el-tabs__item:hover {
+  color: #0083B5;
+}
+.yd-main .el-tabs__header .el-tabs__active-bar {
+  background: #0083B5;
+}
+.yd-main .el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: #0083B5;
+}
+.yd-main .yd-add-btn {
+  background: url("../../img/btn-0083B5.png") no-repeat;
+}
+.yd-main .el-radio__input.is-checked .el-radio__inner {
+  border-color: #0083B5;
+  background: #0083B5;
+}
+.yd-main .el-radio__input.is-checked + .el-radio__label {
+  color: #0083B5;
+}
+.yd-main .el-radio-button__orig-radio:checked + .el-radio-button__inner {
+  border-color: #0083B5;
+  background: #0083B5;
+  box-shadow: none;
+}
+.yd-main .yd-educational-info-dialog .yd-custom-tab2 .el-tabs__header .el-tabs__item.is-active {
+  color: #0083B5;
+  border: 1px solid #0083B5;
+}
+.yd-main .yd-common-steps .step-list.active .round {
+  background: #0083B5;
+}
+.yd-main .yd-common-steps .step-list.active h3 {
+  color: #0083B5;
+}
+.yd-educational-arranging .arranging-steps .step-list:first-child.active {
+  background-color: #0083B5;
+  border-top: 1px solid #0083B5;
+  border-bottom: 1px solid #0083B5;
+}
+.yd-educational-arranging .arranging-steps .step-list:first-child.active .left:before {
+  border-left: 30px solid #0083B5;
+}
+.yd-educational-arranging .arranging-steps .step-list.active {
+  background-color: #0083B5;
+  border-top: 1px solid #0083B5;
+  border-bottom: 1px solid #0083B5;
+}
+.yd-educational-arranging .arranging-steps .step-list.active .left {
+  border-left: 30px solid #0083B5;
+}
+.yd-educational-arranging .arranging-steps .step-list.active .left:before {
+  right: 0px;
+}
+.yd-educational-arranging .arranging-steps .step-list.active .right {
+  border-left: 30px solid #0083B5;
+}
+.yd-educational-arranging .arranging-steps .step-list.active .right:after {
+  border-left: 30px solid #0083B5;
+}
+.arranging-course-one .isflagbox .el-radio.is-bordered.is-checked {
+  background-color: #0083B5;
+  border-color: #0083B5;
+}
+.arranging-course-one .isflagbox .el-radio-button__orig-radio:checked + .el-radio-button__inner {
+  background-color: #0083B5;
+  border-color: #0083B5;
+  -webkit-box-shadow: -1px 0 0 0 #0083B5;
+  box-shadow: -1px 0 0 0 #0083B5;
+}
+.setting-common-table .el-input-group__append {
+  background-color: #0083B5;
+  border: 1px solid #0074a2;
+}
+.arranging-setting-color .el-checkbox__input.is-checked + .el-checkbox__label {
+  color: #0083B5;
+}
+.arranging-setting-color .el-checkbox__input.is-checked .el-checkbox__inner {
+  background-color: #0083B5;
+  border-color: #0083B5;
+}
+/*# sourceMappingURL=skin-0083B5.css.map */

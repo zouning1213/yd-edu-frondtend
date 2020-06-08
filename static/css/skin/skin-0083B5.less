@@ -1,0 +1,273 @@
+@color: #0083B5; //默认颜色
+@font-active-color: #0175A2; //字体点击的颜色
+@bg-color: #0083B5; //背景色
+@bg-color1: #05C282; //背景色1
+@status-color: #5CBDC5; //状态背景颜色
+@btn-color: #0083B5; //按钮颜色
+@border-color: #0074a2; //边框颜色
+//菜单颜色
+@menu-bg: #0083B5;
+@menu-bg-active: #0175A2;
+@menu-bg-active-this: #09739B;
+@menu-font: rgba(255, 255, 255, 0.85); //一级菜单字体
+@menu-font-active: rgba(255, 255, 255, 1); // 一级菜单获得焦点字字体
+@menu-font1: rgba(255, 255, 255, 0.65); //二级菜单字体
+@menu-font-active1: rgba(255, 255, 255, 1); //二级获得焦点菜单字体
+//左侧菜单
+.yd-left-menu {
+    background: @menu-bg;
+    .yd-menu-ul {
+        //未点击
+        .yd-nav-item {
+            .yd-nav-bar {
+                color: @menu-font;
+            }
+            .yd-nav-child {
+                li {
+                    a {
+                        color: @menu-font1;
+                    }
+                }
+            }
+        }
+        //获得焦点
+        .yd-this {
+            background: @menu-bg-active;
+            .yd-nav-bar {
+                background: @menu-bg-active-this;
+                color: @menu-font-active;
+            }
+            .yd-nav-child {
+                .active {
+                    .yd-two-bar { //二级获得焦点
+                        color: @menu-font-active1;
+                        &:before {
+                            background-color: @menu-font-active1;
+                        }
+                    }
+                }
+                .yd-nav-child { //三级获得焦点
+                    .active {
+                        a {
+                            color: @menu-font-active1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.bg-skin {
+    background-color: @bg-color;
+}
+
+.bg-skin-imp {
+    background-color: @bg-color !important;
+}
+
+.active-bg-skin {
+    background-color: @bg-color1;
+}
+
+.font-skin {
+    color: @color;
+}
+
+.active-font-skin {
+    color: @font-active-color;
+}
+
+.icon-skin {
+    color: @color !important;
+}
+
+.border-skin {
+    border: 1px solid @color !important;
+}
+
+.border-color-skin {
+    border-color: @color;
+}
+
+.status-skin {
+    background-color: @status-color;
+}
+
+.hover-skin {
+    &:hover {
+        * {
+            color: @color !important;
+        }
+    }
+}
+
+.edit-btn, .detail-btn, .manager-btn {
+    color: @btn-color;
+}
+
+.text-blue {
+    color: @color;
+}
+
+//更改自定义皮肤
+.yd-tabs-header {
+    .is-active {
+        &:before {
+            background-color: @color;
+        }
+    }
+}
+
+.yd-header {
+    .header-skin {
+        &:hover {
+            p, i {
+                color: @color;
+            }
+            .login-icon {
+                i {
+                    color: @color;
+                }
+            }
+        }
+    }
+}
+
+//右侧内容
+.yd-main {
+    //统一
+    .yd-router-title, .yd-common-search {
+        .el-input-group__append {
+            background: @color;
+            border: 1px solid @border-color;
+        }
+    }
+    .el-button--primary {
+        background: @color;
+        border: 1px solid @border-color;
+    }
+    .el-tabs__header {
+        .el-tabs__item.is-active, .el-tabs__item:hover {
+            color: @color;
+        }
+        .el-tabs__active-bar {
+            background: @color;
+        }
+    }
+    .el-pagination.is-background .el-pager li:not(.disabled).active {
+        background-color: @color;
+    }
+    .yd-add-btn {
+        background: url("../../img/btn-0083B5.png") no-repeat;
+    }
+
+    //单选框按钮
+    .el-radio__input.is-checked .el-radio__inner {
+        border-color: @color;
+        background: @color;
+    }
+    .el-radio__input.is-checked + .el-radio__label {
+        color: @color;
+    }
+    .el-radio-button__orig-radio:checked + .el-radio-button__inner {
+        border-color: @color;
+        background: @color;
+        box-shadow: none;
+    }
+    //教师学生个人信息框
+    .yd-educational-info-dialog .yd-custom-tab2 .el-tabs__header .el-tabs__item.is-active {
+        color: @color;
+        border: 1px solid @color;
+    }
+    //步骤条
+    .yd-common-steps {
+        .step-list.active {
+            .round {
+                background: @color;
+            }
+            h3 {
+                color: @color;
+            }
+        }
+    }
+}
+
+//辅助排课
+.yd-educational-arranging {
+    .arranging-steps {
+        .step-list {
+            &:first-child {
+                &.active {
+                    background-color: @bg-color;
+                    border-top: 1px solid @bg-color;
+                    border-bottom: 1px solid @bg-color;
+                    .left {
+                        &:before {
+                            border-left: 30px solid @bg-color;
+                        }
+                    }
+                    .right {
+
+                    }
+                }
+            }
+            &.active {
+                background-color: @bg-color;
+                border-top: 1px solid @bg-color;
+                border-bottom: 1px solid @bg-color;
+                .left {
+                    border-left: 30px solid @bg-color;
+                    &:before {
+                        right: 0px;
+                    }
+                }
+                .right {
+                    border-left: 30px solid @bg-color;
+                    &:after {
+                        border-left: 30px solid @bg-color;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+//排课约束标签的颜色
+.arranging-course-one {
+    .isflagbox {
+        // 颜色要写到皮肤里
+        .el-radio.is-bordered.is-checked {
+            background-color: @color;
+            border-color: @color;
+        }
+
+        .el-radio-button__orig-radio:checked + .el-radio-button__inner {
+            background-color: @color;
+            border-color: @color;
+            -webkit-box-shadow: -1px 0 0 0 @color;
+            box-shadow: -1px 0 0 0 @color;
+        }
+    }
+
+}
+
+//约束设置
+.setting-common-table {
+    .el-input-group__append {
+        background-color: @color;
+        border: 1px solid @border-color;
+    }
+}
+
+//禁排多选框颜色
+.arranging-setting-color {
+    .el-checkbox__input.is-checked+.el-checkbox__label {
+        color:  @color;
+    }
+    .el-checkbox__input.is-checked .el-checkbox__inner{
+        background-color: @color;
+        border-color: @color;
+    }
+}
